@@ -2,7 +2,9 @@
 
 #用c#获取outlook(outlook2013/outlook2016)中的邮件  
 
-#关键代码如下  
+use c# read outlook mail
+
+#关键代码如下  code：
 
             Microsoft.Office.Interop.Outlook.Application myOutlookApp = new Microsoft.Office.Interop.Outlook.Application();
             Microsoft.Office.Interop.Outlook.NameSpace myNameSpace = myOutlookApp.GetNamespace("MAPI");
